@@ -1,0 +1,19 @@
+# JDBC drivers (download locally, don't commit)
+spark/jars/*.jar
+
+# Jupyter
+.ipynb_checkpoints/
+spark/notebooks/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+
+# Spark runtime
+spark-warehouse/
+metastore_db/
+derby.log
